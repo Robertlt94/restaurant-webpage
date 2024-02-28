@@ -5,7 +5,42 @@ h1 {
 
 body{
     background-color: #ffffff;
-    padding: 20px;
     text-align: center;
+}
+
+header {
+
+    background-color: firebrick;
+    margin: 0;
+    padding: 0%;
+    top: 100%;
+}
+
+nav ul li {
     list-style-type: none;
+    display: inline;
+    position: relative;
+    left: -20px;
+}
+
+footer {
+    background-color: #B4F8C8;
+    color: #000;
+    bottom: 0;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+table {
+    margin: auto auto;
+}
+
+#dailyHours {
+    font-size: 12px;
+}
+
+#footerInfo {
+    display: flex;
+    justify-content: space-evenly;
 }
