@@ -85,6 +85,7 @@ main section div img {
         grid-row: 1/2;
     }
 
+    /* while on a bigger media screen, hovering over images enlarges images */
     .foodImg:hover {
         height: 300px;
         width: 300px;
