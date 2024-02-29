@@ -85,6 +85,11 @@ main section div img {
         grid-row: 1/2;
     }
 
+    .foodImg:hover {
+        height: 300px;
+        width: 300px;
+    }
+
     /* On The House */
     #onTheHouse1 {
         grid-column: 1/2;
