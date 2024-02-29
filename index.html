@@ -7,48 +7,59 @@
     <link rel="stylesheet" href="./styles/stylesheet.css">
 </head>
 <body>
-    <header>
-        <h1>Spicy Eats</h1>
+    <a id="aboutUs"></a><header></a>
+        <img src="./images/HTG-SpicyEatsMenu.png" alt="red pepper spicy eats logo">
         <nav>
             <ul>
-                <a href=""><li>About Us</li></a>
-                <a href=""><li>Appetizers</li></a>
-                <a href=""><li>Dinner</li></a>
-                <a href=""><li>Contact Us</li></a>
+                <a href="#aboutUs"><li>About Us</li></a>
+                <a href="#appetizers"><li>Appetizers</li></a>
+                <a href="#main"><li>Main</li></a>
+                <a href="#contactUs"><li>Contact Us</li></a>
             </ul>
         </nav>
     </header>
     <main>
-        <section>
-            <h2>Are you ready for some 	&#128293; food?</h2>
+        <section id="aboutUsInfo">
+            <h2>Are you ready for some <span role="img" aria-label="fire" >&#128293;</span> food?</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel congue enim. Nullam lobortis vitae ex hendrerit luctus. Mauris aliquam convallis mollis. Sed congue neque malesuada enim luctus pharetra. Integer eleifend condimentum ligula, posuere scelerisque neque. Maecenas lacinia euismod ipsum in tempus. Donec lobortis finibus sem, nec laoreet metus porta quis. Maecenas varius mauris et odio sodales volutpat. Vivamus sollicitudin, eros cursus sodales sagittis, nulla augue mollis nibh, eget faucibus ex est ac massa. Quisque quis orci orci. Aliquam quis leo id ante porta ornare vitae sed lacus.</p>
         </section>
-        <section id="freeContainer">
-            <h2>On the House</h2>
-            <h6>All dine in and take out orders will come with a side of dipping sauce</h6>
-            <div>
+        <section class="foodContainer">
+            <h2 class="containerTitle">On the House</h2>
+            <div id="onTheHouse1">
                 <p>Spicy Dipping Sauce</p>
                 <img src="./images/spicyDippingSauce.webp" alt="spicy hmong pepper dipping sauce" class="foodImg">
-                <p>Additional Info</p>
+                <p>All orders come with a side of spicy dipping sauce upon request</p>
+            </div>
+            <a id="appetizers"></a><div id="onTheHouse2"></a>
+                <div id="app1">
+                <p>Sticky Rice</p>
+                <img src="./images/stickyRice.jpg" alt="sticky rice" class="foodImg">
+                <p>All main dishes come with a order of small sticky rice upon request</p>
             </div>
         </section>
-        <section id="appContainer">
-            <h2>Appetizers</h2>
-            <div>
-                <p>Egg Rolls</p>
-                <img src="" alt="" class="foodImg">
+        <section class="foodContainer">
+            <h2 class="containerTitle">Appetizers</h2>
+            <div id="app1">
+                <p>Crispy Egg Rolls</p>
+                <img src="./images/eggrolls.jpg" alt="crispy eggrolls" class="foodImg">
                 <p>$0.00</p>
                 <p>Additional Info</p>
             </div>
-            <div>
-                <p>Food Item 2</p>
-                <img src="" alt="" class="foodImg">
+            <div id="app2">
+                <p>Jalopeno Poppers</p>
+                <img src="./images/jalopenoPoppers.jpg" alt="jalopeno poppers" class="foodImg">
                 <p>$0.00</p>
                 <p>Additional Info</p>
             </div>
-            <div>
-                <p>Food Item 3</p>
-                <img src="" alt="" class="foodImg">
+            </a><div id="app3">
+                <p>Lao Style Papaya Salad</p>
+                <img src="./images/papayaSalad.jpg" alt="lao style papaya salad" class="foodImg">
+                <p>$0.00</p>
+                <p>Additional Info</p>
+            </div>
+            <a id="main"></a><div id="app4"></a>
+                <p>Crab Ragoons</p>
+                <img src="./images/crabRagoons.jpg" alt="crab ragoons" class="foodImg">
                 <p>$0.00</p>
                 <p>Additional Info</p>
             </div>
@@ -80,23 +91,29 @@
                 </tr>
             </table> -->
         </section>
-        <section id="mainContainer">
-            <h2>Main</h2>
-            <div>
-                <p>Food Item 4</p>
-                <img src="" alt="" class="foodImg">
+        <section class="foodContainer">
+            <h2 class="containerTitle">Main</h2>
+            <div id="main1">
+                <p>Spicy Pork Sausage</p>
+                <img src="./images/laoSausage.jpg" alt="spicy pork sausage" class="foodImg">
                 <p>$0.00</p>
                 <p>Additional Info</p>
             </div>
-            <div>
-                <p>Food Item 5</p>
-                <img src="" alt="" class="foodImg">
+            <div id="main2">
+                <p>Lao Style Pho</p>
+                <img src="./images/pho.jpg" alt="lao style pho" class="foodImg">
                 <p>$0.00</p>
                 <p>Additional Info</p>
             </div>
-            <div>
-                <p>Food Item 6</p>
-                <img src="" alt="" class="foodImg">
+            <div id="main3">
+                <p>Spicy Chicken Wings</p>
+                <img src="./images/spicyChickenWings.webp" alt="spicy chicken wings" class="foodImg">
+                <p>$0.00</p>
+                <p>Additional Info</p>
+            </div>
+            <div id="main4">
+                <p>Nam Tok Beef Salad</p>
+                <img src="./images/namtokBeefSalad.jpeg" alt="nam tok beef salad" class="foodImg">
                 <p>$0.00</p>
                 <p>Additional Info</p>
             </div>
@@ -132,7 +149,7 @@
     <footer>
         <section id="footerInfo">
             <div>
-                <h2>Hours</h2>
+                <a id="contactUs"><h2>Hours</h2></a>
                 <!-- Swapped out ul for table to line things up -->
                 <!-- <ul>
                     <li><span class="dayOfTheWeek">Monday</span> 9am - 9pm</li>
